@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import List
-from ..services import fetch_all_courses, recommend_courses
+from services import fetch_all_courses, recommend_courses
 
 router = APIRouter()
 

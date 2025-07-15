@@ -1,5 +1,5 @@
 import random
-from .database import get_collection
+from database import get_collection
 from bson import ObjectId
 def fetch_all_courses():
     collection = get_collection()
